@@ -6,6 +6,7 @@ layout: page-not-blog
 ---
 
 - Hosted on [Neocities](https://neocities.org/site/kyletools) (using the CLI tool to update)
+- Source code on [GitHub](https://github.com/hunychain/kyletools)
 - Tested on Firefox
 - [Neovim](https://neovim.io/) - code editor
 - [git](https://git-scm.com/) - version control 
