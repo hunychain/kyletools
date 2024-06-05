@@ -1,0 +1,58 @@
+// --- Base (1 = lightest) ---
+$white: #fff;
+$black: #323232;
+$light-grey-1: #eaeaea;
+$light-grey-2: #dfdfdf;
+$grey-1: #949494;
+$grey-2: #B9B9B9;
+$green-1: #31D34D;
+$green-2: #027b16;
+$yellow: #fefb5396;
+$blue-1: #0053ff;
+$blue-darker: #002c87;
+$red-1: #d33154;
+$red-2: #9f2540;
+$purple: #7b5697; 
+
+
+// --- Typography ---
+$ss-font-stack: -apple-system,
+BlinkMacSystemFont,
+avenir next,
+avenir,
+segoe ui,
+helvetica neue,
+helvetica,
+Cantarell,
+Ubuntu,
+roboto,
+noto,
+arial,
+sans-serif;
+@mixin text-shadow($spread, $color, $opacity) {
+    text-shadow: 0 1px $spread rgba($color, $opacity);
+}
+
+// ---  Borders ---
+$round-corners: .5rem;
+
+@mixin dotted-border($property, $color) {
+    #{$property}: 3px dotted $color;
+}
+
+@mixin solid-border($property, $color) {
+    #{$property}: 1px solid $color;
+}
+
+// ---- SITE STYLES ----
+$bg-color: $light-grey-1;
+$bg-color-darker: $light-grey-2;
+$text-color: $black;
+$nav-font-size: 1.3125rem;
+$link-color: $green-2;
+$code-color: $purple;
+
+// #site-title
+$st-font-size: 1.5rem;
+$st-bg-color: $green-1;
+$st-text-color: $white;

@@ -1,0 +1,49 @@
+{{ define "main" }}
+<article>
+
+    {{/*  POST DATE  */}}
+    {{ if isset .Params "show_date" | and (eq .Params.show_date false) }}
+    {{ else }}
+    <p class="date">{{ .Date.Format "Jan 02, 2006" }}</p>
+    {{ end }}
+
+    {{/*  TAGS  */}}
+    {{ range (.GetTerms "tags") }}
+        <div class="tag">
+            #{{ .LinkTitle }}
+        </div>&nbsp;
+        {{ end }}
+
+    {{/*  POST TITLE  */}}
+    <h1>{{ .Title }}</h1>
+
+    {{/*  THUMBNAIL  */}}
+    {{ if isset .Params "image" }}
+    <img class="featured-image" src="{{ .Params.image }}" alt="{{ .Title }}" />
+    {{ else }}
+    {{ end }}
+
+    {{/*  POST CONTENT  */}}
+    <section class="post-content">
+    {{ .Content }}
+    </section>
+</article>
+
+{{/*  POST NAVIGATION  */}}
+
+{{/*  IF HIDDEN, HIDE THE POST FROM THE NAV  */}}
+<div id="post-navigation">
+    
+    {{/*  NEXT  */}}
+    {{ with .NextInSection }}  
+    <a href="{{ .Permalink }}">&#8592; Next Post: {{ .Title }}</a>
+    {{ end }}&nbsp;
+    {{/*  PREVIOUS  */}}
+    {{ with .PrevInSection }}  
+        {{ if (ne .Params.hidden true) }}
+        <a href="{{ .Permalink }}">Previous Post: {{ .Title }} &#8594;</a>
+        {{ else }}
+        {{ end }}
+    {{ end }}  
+</div>
+{{ end }}

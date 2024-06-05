@@ -1,0 +1,22 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{ $title := print .Title " - " .Site.Title }} {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
+    <title>{{ $title }}</title>
+    {{/*  CSS  */}}
+    {{ $style := resources.Get "css/style.scss" }}
+    {{ $style = $style | toCSS | minify }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+    <link rel="stylesheet" href="/lightbox/lightbox.min.css" />
+    {{/*  PREVIEW THUMBNAIL  */}}
+    <meta property="og:image" content="https://kyletools.neocities.org/img/meta-thumb.jpg" />
+    <meta property="twitter:card" content="summary_large_image">
+    {{/*  DESCRIPTION  */}}
+    <meta name="description" content="{{ .Site.Params.Description }}">
+    {{/*  FAVICON  */}}
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicon/site.webmanifest">
+</head>

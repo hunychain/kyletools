@@ -1,0 +1,21 @@
+body, img {
+    cursor: url(/img/csr/default.png), default;
+}
+
+p,
+ul,
+h1,
+h2,
+h3,
+h4 {
+    cursor: url(/img/csr/text.png), text;
+}
+
+a,
+a img {
+    cursor: url(/img/csr/pointer.png), pointer;
+}
+
+#site-title {
+    cursor: url(/img/csr/special.png), pointer;
+}

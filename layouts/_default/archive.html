@@ -1,0 +1,46 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<div id="content-nav">
+    <a href="/blog">&#8592; Blog</a>
+</div>
+
+<section id="archive">
+  {{ $type := .Type }}
+  {{ $.Scratch.Set "count" 1 }}
+
+    {{ range (.Site.RegularPages.GroupByDate "2006") }}
+      {{ if and (gt .Key 1) (gt (where .Pages "Type" $type) 0) }}
+
+        {{ range (where .Pages "Type" $type) }}
+          {{ if (eq ($.Scratch.Get "count") 1) }}
+            {{ $.Scratch.Set "count" 0 }}
+            <h2>{{ .Date.Format "2006" }}</h2>
+          {{ end }}
+        {{ end }}
+
+        {{ $.Scratch.Set "count" 1 }}
+
+          <ul>
+          {{ range (where .Pages "Type" $type) }}
+            {{ if (ne .Params.hidden true) }}
+              <li>
+                <div>
+                    {{ .Date.Format "01/02" }}
+                </div>
+                <div>
+                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                </div>
+                <div>
+                    {{ range (.GetTerms "tags") }}
+                    <span class="tag">#{{ .LinkTitle }}</span>
+                    {{ end }}
+                </div>
+              </li>
+            {{ end }}
+          {{ end }}
+          </ul>
+
+    {{ end }}
+  {{ end }}
+</section>
+{{ end }}

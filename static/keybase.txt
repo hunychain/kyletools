@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/honeychain
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://kyletools.neocities.org
+  * I am honeychain (https://keybase.io/honeychain) on keybase.
+  * I have a public key ASBGvYmkkoeF6zNkx_AL0jCSmA2m-KtqO5f76W166w-jQAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012046bd89a4928785eb3364c7f00bd23092980da6f8ab6a3b97fbe96d7aeb0fa3400a",
+      "host": "keybase.io",
+      "kid": "012046bd89a4928785eb3364c7f00bd23092980da6f8ab6a3b97fbe96d7aeb0fa3400a",
+      "uid": "e7f76a8079642d2ddaf56e27b0710c19",
+      "username": "honeychain"
+    },
+    "merkle_root": {
+      "ctime": 1676889909,
+      "hash": "e63c5a6469123c9911835c19de17c3081d9f3497d8253c1f54cedf0013b0a7924b84cc6186ed0b78b5d9df59da586e86b9fe5c95fbc0055ca98e6e37a8f188f9",
+      "hash_meta": "a9f3823c95b43214056dedaba3159772f6f2551d8b8a2daf9ae8143092581c8f",
+      "seqno": 24079951
+    },
+    "service": {
+      "entropy": "nuLF29Cu/3+oCShE+9qin7iu",
+      "hostname": "kyletools.neocities.org",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.4"
+  },
+  "ctime": 1676889964,
+  "expire_in": 504576000,
+  "prev": "fe87732f7d85bf657fe6b2c355fd34c0a619693d56247f8d45195a63bde9ad2f",
+  "seqno": 4,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgRr2JpJKHheszZMfwC9IwkpgNpvirajuX++lteusPo0AKp3BheWxvYWTESpcCBMQg/odzL32Fv2V/5rLDVf00wKYZaT1WJH+NRRlaY73prS/EIMO/jJL3wMIPWV/Mcv3+CVl+0Pju8hzCTGH6rzp9uV1OAgHCo3NpZ8RAByV81epzwi0AKhCq4/Qa7EAj+4iqVUua1wUqT/uKNGUg/M1ZqerNml7bud7dMY19DXQSswCqwsooKCBNYEJXDahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIL2qAAYvkGVsbpH1PjckT0M/XOe7R0Kgv2FO/AzzdsIao3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/honeychain
+
+==================================================================
