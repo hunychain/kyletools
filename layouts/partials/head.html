@@ -7,7 +7,7 @@
     {{/*  CSS  */}}
     {{ $style := resources.Get "css/style.scss" }}
     {{ $style = $style | toCSS | minify }}
-    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}" />
     <link rel="stylesheet" href="/lightbox/lightbox.min.css" />
     {{/*  PREVIEW THUMBNAIL  */}}
     <meta property="og:image" content="https://kyletools.neocities.org/img/meta-thumb.jpg" />

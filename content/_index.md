@@ -2,7 +2,11 @@
 title: "Home"
 ---
 
-![A drawing of a little guy sitting in carboard box](/img/index-melo.png)
+# Welcome! :-)
+
+{{< rawhtml >}}
+<img src="/img/index-melo.png" style="text-align=center;" alt="A drawing of a little guy sitting in a cardboard box" />
+{{< /rawhtml >}}
 
 {{< rawhtml >}}
 <div id="statuscafe">
@@ -20,9 +24,12 @@ title: "Home"
 ![Cute anime girls now! button](/img/btns/animegirls.gif)
 {{< rawhtml >}}</div>{{< /rawhtml >}}
 
-{{< rawhtml >}}<div id="update-box">{{< /rawhtml >}}
-## Updates
+{{< rawhtml >}}<div id="update-box">
+  <a id="hide" href="#hide" class="hide">Update <span>↓</span> <span id="click">click me!</span></a>
+  <a id="show" href="#show" class="show">Update <span>↑</span></a>
+  <hr>
+<div class="details">{{< /rawhtml >}}
 - {{< rawhtml >}}<span class="date">06/02/2024</span>{{< /rawhtml >}}made a button for my site! i'll update soon i swear..lolol
 - {{< rawhtml >}}<span class="date">01/12/2023</span>{{< /rawhtml >}}my [bookshelf](/bookshelf/index.html) is up!
 - {{< rawhtml >}}<span class="date">12/29/2022</span>{{< /rawhtml >}}it's up!!! everything should be working! will be tweaking stuff and slowly adding content.... thanx for visiting! :)
-{{< rawhtml >}}</div>{{< /rawhtml >}}
+{{< rawhtml >}}</div></div>{{< /rawhtml >}}

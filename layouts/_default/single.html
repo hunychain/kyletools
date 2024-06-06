@@ -36,12 +36,12 @@
     
     {{/*  NEXT  */}}
     {{ with .NextInSection }}  
-    <a href="{{ .Permalink }}">&#8592; Next Post: {{ .Title }}</a>
+    <a href="{{ .Permalink }}"><span>&#8592;</span> Next Post: {{ .Title }}</a>
     {{ end }}&nbsp;
     {{/*  PREVIOUS  */}}
     {{ with .PrevInSection }}  
         {{ if (ne .Params.hidden true) }}
-        <a href="{{ .Permalink }}">Previous Post: {{ .Title }} &#8594;</a>
+        <a href="{{ .Permalink }}">Previous Post: {{ .Title }} <span>&#8594;</span></a>
         {{ else }}
         {{ end }}
     {{ end }}  

@@ -36,9 +36,18 @@
   text-align: left;
   max-width: 450px;
 
-  h2 {
+  hr {
+    border: none;
     @include dotted-border(border-bottom, $green-1);
+    // width: 50%;
+  }
+
+  #hide,
+  #show {
     width: fit-content;
+    text-decoration: none;
+    color: $black;
+    font-size: 2.5rem;
   }
 
   ul {
@@ -51,14 +60,12 @@
 
   li {
     .date {
-      display: block;
       border: none;
       font-weight: bold;
-      background-color: $green-1;
-      color: $white;
-      @include text-shadow(.5px, $black, 25%);
+      background-color: $light-grey-2;
       padding: .2rem .5rem .2rem .5rem;
       border-radius: $round-corners;
+      margin-right: 10px;
       margin-bottom: .5rem;
     }
 
@@ -68,6 +75,29 @@
       @include solid-border(border-bottom, $grey-1);
     }
   }
+
+  #click {
+    color: $white;
+    font-family: $default-font, $ss-font-stack;
+    @include text-shadow(2px, $green-1, 25%);
+  }
+
+  a span {
+    font-size: smaller;
+    font-family: monospace;
+  }
+}
+
+// Toggle Updates
+.details,
+.show,
+.hide:target {
+  display: none;
+}
+
+.hide:target+.show,
+.hide:target~.details {
+  display: block;
 }
 
 // --- About page ---
@@ -92,7 +122,6 @@
   p {
     margin: 0 auto;
     padding: 1rem 0 1rem 0;
-    font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
   }
 }
@@ -134,7 +163,7 @@ div .tag {
   }
 
   .tag {
-    font-size: small;
+    font-size: 1.2rem;
   }
 }
 
@@ -165,7 +194,7 @@ div .tag {
 .read-more {
   background-color: $green-1;
   @include text-shadow(.5px, $black, 25%);
-  padding: .5rem;
+  padding: .5rem .7rem .5rem .7rem;
   width: fit-content;
   border-radius: $round-corners;
   margin-bottom: 1rem;
@@ -243,6 +272,11 @@ div .tag {
       text-decoration: none;
     }
   }
+
+  a span {
+    color: $black;
+    font-family: monospace;
+  }
 }
 
 // Specific blog posts:
@@ -260,7 +294,7 @@ div .tag {
   display: flex;
   flex-flow: row wrap;
   gap: 1rem;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 
   a {
     text-decoration: none;

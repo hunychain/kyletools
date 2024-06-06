@@ -1,42 +1,30 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
 <div id="content-nav">
-    <a  href="/blog/archive">Archive &#8594;</a>
+    <a href="/blog/archive">Archive <span>&#8594;</span></a>
 </div>
 
 <section id="blog-list">
-    {{/*  LOOP SHOWS EACH POST  */}}
-    {{ range .Paginator.Pages.ByPublishDate.Reverse }}
-    {{/*  IF HIDDEN, HIDE THE POST FROM THE LIST  */}}
-    {{ if (ne .Params.hidden true) }}
-    <div class="blog-post">
-        {{/*  DATE  */}}
-        <p class="date">{{ .Date.Format "Jan 02, 2006" }}</p>
-        {{/*  TAGS  */}}
-        {{ range (.GetTerms "tags") }}
-        <div class="tag">
-            #{{ .LinkTitle }}
-        </div>
-        &nbsp;
-        {{ end }}
-        {{/*  TITLE  */}}
-        <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
-        {{/*  THUMBNAIL  */}}
-        {{ if isset .Params "image" }}
-        <a href="{{ .RelPermalink }}"><img class="featured-image" src="{{ .Params.image }}" alt="{{ .Title }}" /></a>
-        {{ else }}
-        {{ end }}
-        {{/*  PREVIEW TEXT  */}}
-        <p>
-            {{ .Content | safeHTML | truncate 350 }}<br>
-        </p>
-        {{/*  READ MORE LINK  */}}
-        <div class="read-more"><a href="{{ .RelPermalink }}">Read more &#8594;</a></div>
-    </div>
-    {{ else }}
-    {{ end }}
-    {{ end }}
+  {{/* LOOP SHOWS EACH POST */}} {{ range .Paginator.Pages.ByPublishDate.Reverse
+  }} {{/* IF HIDDEN, HIDE THE POST FROM THE LIST */}} {{ if (ne .Params.hidden
+  true) }}
+  <div class="blog-post">
+    {{/* DATE */}}
+    <p class="date">{{ .Date.Format "Jan 02, 2006" }}</p>
+    {{/* TAGS */}} {{ range (.GetTerms "tags") }}
+    <div class="tag">#{{ .LinkTitle }}</div>
+    &nbsp; {{ end }} {{/* TITLE */}}
+    <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+    {{/* THUMBNAIL */}} {{ if isset .Params "image" }}
+    <a href="{{ .RelPermalink }}"
+      ><img class="featured-image" src="{{ .Params.image }}" alt="{{ .Title }}"
+    /></a>
+    {{ else }} {{ end }} {{/* PREVIEW TEXT */}}
+    <p>{{ .Content | safeHTML | truncate 350 }}<br /></p>
+    {{/* READ MORE LINK */}}
+    <div class="read-more"><a href="{{ .RelPermalink }}">Read more<a></div>
+  </div>
+  {{ else }} {{ end }} {{ end }}
 </section>
 
-{{ partial "pagination" .}}
-{{ end }}
+{{ partial "pagination" .}} {{ end }}
