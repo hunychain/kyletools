@@ -5,7 +5,7 @@ copyright = "2024"
 uglyurls = true
 relativeURLs = true
 paginate = 5
-disableKinds = ["sitemap", "RSS", "404", "taxonomy", "term"] 
+disableKinds = ["sitemap", "RSS", "404", "taxonomy"]
 capitalizeListTitles = false
 [params]
-Description = "Kyletools is a place for Kyle to roam around and graze freely. Here you can find his thoughts, drawings, and whatever else interests him. Abandon all hope, ye who enter here."
+  Description = "Kyletools is a place for Kyle to roam around and graze freely. Here you can find his thoughts, drawings, and whatever else interests him. Abandon all hope, ye who enter here."

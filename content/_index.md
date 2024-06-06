@@ -12,11 +12,13 @@ title: "Home"
 <script src="https://status.cafe/current-status.js?name=kyletools" defer></script>
 {{< /rawhtml >}}
 
+{{< rawhtml >}}<div style="image-rendering: pixelated;">{{< /rawhtml >}}
 [![MA rating button](/img/btns/censormc.gif)](http://www.mabsland.com/Adoption.html)
 ![Best viewed with open eyes button](/img/btns/openeyes.gif)
 ![Neocities button](/img/btns/neo.gif)
 ![This website sucks button](/img/btns/sucks.gif)
 ![Cute anime girls now! button](/img/btns/animegirls.gif)
+{{< rawhtml >}}</div>{{< /rawhtml >}}
 
 {{< rawhtml >}}<div id="update-box">{{< /rawhtml >}}
 ## Updates

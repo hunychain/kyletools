@@ -26,6 +26,9 @@ jobs:
       - name: Build
         run: hugo
 
+      - name: Remove tags from public build
+      - run: rm -rf public/tags
+
       - name: Deploy to neocities
         uses: bcomnes/deploy-to-neocities@v2
         with:
