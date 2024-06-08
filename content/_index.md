@@ -4,9 +4,7 @@ title: "Home"
 
 # Welcome! :-)
 
-{{< rawhtml >}}
-<img src="/img/index-melo.png" style="text-align=center;" alt="A drawing of a little guy sitting in a cardboard box" />
-{{< /rawhtml >}}
+![A drawing of a little guy sitting in a cardboard box](/img/index-melo.png)
 
 {{< rawhtml >}}
 <div id="statuscafe">

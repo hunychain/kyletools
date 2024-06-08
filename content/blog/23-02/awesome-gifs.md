@@ -1,7 +1,7 @@
 ---
 title: "awesome gifs"
 tags: []
-date: 2023-04-03T17:50:47-08:00
+date: "2023-04-03"
 ---
 
 {{< rawhtml >}}<div id="awesome-gif-box">{{< /rawhtml >}}

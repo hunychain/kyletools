@@ -1,12 +1,12 @@
 ---
 title: "Kyle Makes Kyle Tools"
 tags: ['webmastery']
-image: /blog/23-01/thumb.jpg
-date: 2023-01-03T17:50:47-08:00
+image: "/blog/23-01/thumb.jpg"
+date: "2023-01-03"
 draft: false
 ---
 
-My website is FINALLY up, wooooo!!! I worked on it for about a week and it's finally done... There are still a few tweaks I want to make, pages to add, but it should be working. I'll be improving the site's accessibility, too. :] Read on if you’re interested in how I made it! If not, see you in the next post?!?!
+My website is FINALLY up, wooooo!!! I worked on it for about a week and it's finally done. . . There are still a few tweaks I want to make, pages to add, but it should be working. I'll be improving the site's accessibility, too. :] Read on if you’re interested in how I made it! If not, see you in the next post?!?!
 
 ## Why make a website?
 
@@ -22,7 +22,7 @@ And here's a little bonus: I found an even older website I made when I was 15. I
 
 ![Clicking through the website I made when I was 15](/blog/23-01/web1.gif)
 
-Fast forward to 2022, ready to give this thing another try... 
+Fast forward to 2022, ready to give this thing another try. . . 
 
 ## Ok. How to make it???
 
@@ -31,7 +31,7 @@ DISCLAIMER: I'm just doing this for fun. I'm learning and I'm trying my best!!!
 Like I mentioned earlier, I always give up at some point. The main obstacle has always been BUILDING it. I have a vision of what I want my website to look like, but I'm limited to my coding abilities. I want a gallery and a blog. This isn't impossible to make with pure HTML/CSS, but I imagine it would be really tedious to maintain in the long-run. When I update my site, I don't want to think about it too much. There haaaass to be a better way! So I decided to give static site generators a try. There are a ton of them. Here are a few I tried a while back:
 
 - **Jekyll**: Couldn't even install it because of some problem with my ruby gems?? I fixed this (i think) recently, but I never went back to try it again. Oops!
-- **Pelican**: I had just learned Python when I tried this so I thought it wouldn't be too hard to use but... I got frustrated at some point and quit. LOL
+- **Pelican**: I had just learned Python when I tried this so I thought it wouldn't be too hard to use but. . . I got frustrated at some point and quit. LOL
 - **Zola**: Similar experience, hit an obstacle, got frustrated, quit.
 
 After testing them and failing, I gave up on my website for a while. Fast forward (again) to December 2022, semester just ended, and I was itching to make my website again. I did some more research, looked into a few more generators, and gave myself two final options: Zonelets or Hugo!
@@ -42,7 +42,7 @@ From my (not very in-depth) research, [Zonelets](https://zonelets.net/) seems to
 
 ![Drawing of me dead on the floor](/blog/23-01/d1.png)
 
-I ended up using [Hugo](https://gohugo.io/). It's definitely overcomplicated, but it works for me! If you watch a couple tutorials and read through the docs, it shouldn't be too difficult to make a website. I found it very helpful to read through the [Go template documentation](https://pkg.go.dev/text/template) as well as Hugo's [function reference](https://gohugo.io/functions/) Now, I COULD have started with a pre-made theme and messed with it to my liking. But I already had an idea of what I wanted so I ummmmmm.... made the process a lot more frustrating than it should have been. :P It was soooo satisfying to get it to work though. This was a good learning experience but now that I'm done I'm like....... WHY did I do it this way. 
+I ended up using [Hugo](https://gohugo.io/). It's definitely overcomplicated, but it works for me! If you watch a couple tutorials and read through the docs, it shouldn't be too difficult to make a website. I found it very helpful to read through the [Go template documentation](https://pkg.go.dev/text/template) as well as Hugo's [function reference](https://gohugo.io/functions/) Now, I COULD have started with a pre-made theme and messed with it to my liking. But I already had an idea of what I wanted so I ummmmmm. . . . made the process a lot more frustrating than it should have been. :P It was soooo satisfying to get it to work though. This was a good learning experience but now that I'm done I'm like. . . . . . . WHY did I do it this way. 
 
 Some helpful things:
 - **Hugo related:**
@@ -63,6 +63,6 @@ Some helpful things:
 
 ## Bye bye
 
-PHEW that's all I want to say...for now. Thanks for reading! :)
+PHEW that's all I want to say for now. Thanks for reading! :)
 
 ![Drawing of me smiling](/blog/23-01/d2.png)
