@@ -1,6 +1,7 @@
+@import 'fonts';
 @import 'variables';
-@import 'responsive';
 @import 'defaults';
+@import 'responsive';
 @import 'cursors';
 
 // --- Index/Homepage ---
@@ -39,7 +40,6 @@
   hr {
     border: none;
     @include dotted-border(border-bottom, $green-1);
-    // width: 50%;
   }
 
   #hide,
