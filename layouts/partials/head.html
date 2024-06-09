@@ -8,7 +8,9 @@
     {{ $style := resources.Get "css/style.scss" }}
     {{ $style = $style | toCSS | minify }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}" />
+    {{ if eq .Title "Gallery" }}
     <link rel="stylesheet" href="/lightbox/lightbox.min.css" />
+    {{ end }}
     {{/*  PREVIEW THUMBNAIL  */}}
     <meta property="og:image" content="https://kyletools.neocities.org/img/meta-thumb.jpg" />
     <meta property="twitter:card" content="summary_large_image">
