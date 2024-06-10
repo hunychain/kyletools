@@ -1,6 +1,6 @@
 ---
 title: "Links"
-date: 2024-06-02T19:43:45-07:00
+date: "2024-06-10"
 show_date: true
 layout: page-not-blog
 ---
@@ -27,6 +27,10 @@ Neat websites you should check out {{< emoji yum >}}
 [![](/img/site-btns/10kph.png)](https://10kph.neocities.org/)
 [![](/img/site-btns/turd.png)](https://turd.neocities.org/)
 [![](/img/site-btns/churupan.gif)](https://churupan.neocities.org/)
+[![](/img/site-btns/koinuko.gif)](https://koinuko.pink/)
+[![](/img/site-btns/neonaut.png)](https://neonaut.neocities.org/)
+[![](/img/site-btns/rottengirlgang.png)](https://rottengirlgang.neocities.org/)
+[![](/img/site-btns/denpaarchive.gif)](https://denpaarchive.neocities.org/)
 [![](/img/site-btns/ranfren.gif)](https://ranfren.neocities.org/)
 [![](/img/site-btns/yotsu.gif)](https://yotsu.neocities.org/)
 [![](/img/site-btns/smfj.gif)](https://smfj.blog.fc2.com/)

@@ -15,11 +15,15 @@ title: "Home"
 {{< /rawhtml >}}
 
 {{< rawhtml >}}<div style="image-rendering: pixelated;">{{< /rawhtml >}}
-[![MA rating button](/img/btns/censormc.gif)](http://www.mabsland.com/Adoption.html)
-![Best viewed with open eyes button](/img/btns/openeyes.gif)
-![Neocities button](/img/btns/neo.gif)
-![This website sucks button](/img/btns/sucks.gif)
-![Cute anime girls now! button](/img/btns/animegirls.gif)
+![](/img/btns/openeyes.gif)
+![](/img/btns/neo.gif)
+![](/img/btns/sucks.gif)
+![](/img/btns/animegirls.gif)  
+![](/img/btns/area51.gif)
+![](/img/btns/dumbass.gif)
+![](/img/btns/nyan.gif)
+![](/img/btns/rena.gif)
+[![Web MA rating, mature audiences only](/img/btns/censormc.gif)](http://www.mabsland.com/Adoption.html)
 {{< rawhtml >}}</div>{{< /rawhtml >}}
 
 {{< rawhtml >}}<div id="update-box">

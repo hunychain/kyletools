@@ -1,6 +1,6 @@
 ---
 title: "About"
-date: 2024-06-02T19:43:45-07:00
+date: "2024-06-10"
 show_date: true
 layout: page-not-blog
 ---
@@ -20,16 +20,22 @@ Hi I'm [Kyle](https://hunychain.github.io/)! welcome ~(o.o)~ I post whatever her
 | Hobbies      | dolls, coding, drawing, reading                                          |
 | Habits       | dragging my butt on the floor, eating kibble, peeing on the floor        |
 
-![Rainbow yaoi pride stamp](/img/btns/yaoipride.gif)
-![Cat dancing stamp](/img/btns/catdance.gif)
-![Stamp that says "I'm straight but I love yaoi"](/img/btns/straightyaoi.png)
-![Stamp that says "I heart yuri](/img/btns/yuri.jpg)
-![Stamp that says "I ROFL a lot"](/img/btns/rofl.jpg)
-![Stamp that says "going online to be silly"](/img/btns/actsilly.png)
-![Stan and Kyle from South Park stamp](/img/btns/style.gif)
-![I love chihuahuas stamp](/img/btns/chiwawa.png)
-![Stamp that says "My sanctuary is a biological hazard"](/img/btns/hazard.jpg)
-![crazy ass stamp](/img/btns/thomas.png)
-![Ren and stimpy stamp](/img/btns/rempy.gif)  
+![](/img/btns/yaoipride.gif)
+![](/img/btns/catdance.gif)
+![](/img/btns/straightyaoi.png)
+![](/img/btns/yuri.jpg)
+![](/img/btns/rofl.jpg)
+![](/img/btns/actsilly.png)
+![](/img/btns/style.gif)
+![](/img/btns/chiwawa.png)
+![](/img/btns/hazard.jpg)
+![](/img/btns/thomas.png)
+![](/img/btns/crack.png)
+![](/img/btns/homu.png)
+![](/img/btns/musicismylifeline.gif)
+![](/img/btns/penis.jpeg)
+![](/img/btns/toomuchhet.gif)
+![](/img/btns/yeahimsilly.png)
+![](/img/btns/inluv.gif) 
 
 Credit to pooplover11 for the drawing in the sidebar!
