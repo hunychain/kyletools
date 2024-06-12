@@ -7,7 +7,7 @@ layout: page-not-blog
 
 - [Home](/index.html)  
 - [About](/about.html)  
-  - [Colophon](/colophoni.html) 
+  - [Colophon](/colophon.html) 
 - [Blog](/blog.html)
   - [Archive](/blog/archive.html)  
 - [Gallery](/gallery.html)  
