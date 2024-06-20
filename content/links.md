@@ -8,6 +8,7 @@ layout: page-not-blog
 Neat websites you should check out {{< emoji yum >}}
 
 {{< rawhtml >}}<div id="out-btns" style="image-rendering: pixelated;">{{< /rawhtml >}}
+[![](/img/site-btns/chezimu.jpg)](https://chezimu.neocities.org/)
 [![](/img/site-btns/fujofans.png)](https://fujofans.neocities.org/)
 [![](/img/site-btns/bcb.png)](https://bittersweetcandybowl.com/)
 [![](/img/site-btns/773tk.png)](https://773tk.neocities.org/)
