@@ -1,11 +1,13 @@
 ---
 title: "Gallery"
-date: 2023-07-05T13:51:37-07:00
+date: "2024-06-28"
 show-date: true
 layout: page-not-blog
 ---
 
-You can find more drawings on my [tumblr](https://monkeyschoolboy.tumblr.com//tagged/kyletooling)... (for now)
+I have an [art thread on Gaia Online](https://www.gaiaonline.com/forum/gaian-art-gallery/_-sketchbook/t.114018696/) that I actively update. (click on emojis to view) 
+
+Old -> New
 
 {{< rawhtml >}}
 <div id="gallery">
@@ -25,6 +27,12 @@ You can find more drawings on my [tumblr](https://monkeyschoolboy.tumblr.com//ta
         src="/img/gallery/2023/3-thumb.jpg" alt="A messy Tuxpaint drawing of Reimu laying on a pile of burgers"></a>
 <a href="/img/gallery/2023/4.jpg" data-lightbox="2022" data-title="another kaito for chai! (chezimwu @ tumblr)"><img
         src="/img/gallery/2023/4-thumb.jpg" alt="A chibi drawing of cyber neko Kaito with a spilt glass of milk"></a>
+<a href="/img/gallery/2023/5.jpg" data-lightbox="2022" data-title="svsss doodle :p"><img
+        src="/img/gallery/2023/5-thumb.jpg" alt="Scum Villain's Self Saving System fanart"></a>
+<a href="/img/gallery/2023/6.jpg" data-lightbox="2022" data-title=":B"><img
+        src="/img/gallery/2023/6-thumb.jpg" alt="Kagamine Rin wearing glasses and text that says "euRINka!"></a>
+<a href="/img/gallery/2023/7.jpg" data-lightbox="2022" data-title="pic for chezimu <3"><img
+        src="/img/gallery/2023/7-thumb.jpg" alt="Kagamine Len and Kaito"></a>
 <h2>2021</h2>
 <a href="/img/gallery/2021/1.jpg" data-lightbox="2021" data-title="doodle"><img src="/img/gallery/2021/1-thumb.jpg"
         alt="Floating head sketch and speech bubble that says 'Wow!'"></a>
@@ -51,6 +59,3 @@ You can find more drawings on my [tumblr](https://monkeyschoolboy.tumblr.com//ta
 </div>
 <script src="/lightbox/lightbox-plus-jquery.min.js"></script>
 {{< /rawhtml >}}
-
-![Under construction](/img/wip.gif)
-This page is a work in progress!

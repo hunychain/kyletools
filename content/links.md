@@ -1,6 +1,6 @@
 ---
 title: "Links"
-date: "2024-06-10"
+date: "2024-06-28"
 show_date: true
 layout: page-not-blog
 ---
@@ -23,6 +23,7 @@ Neat websites you should check out {{< emoji yum >}}
 [![](/img/site-btns/kalechips.png)](https://kalechips.neocities.org/)
 [![](/img/site-btns/kyu.gif)](https://kyu.neocities.org/)
 [![](/img/site-btns/maia-crimew-gay.png)](https://maia.crimew.gay/)
+[![](/img/site-btns/amivicky.png)](https://amivicky.neocities.org/)
 [![](/img/site-btns/scumsuck.png)](https://scumsuck.com/)
 [![](/img/site-btns/strovi.png)](https://strovi.neocities.org/)
 [![](/img/site-btns/10kph.png)](https://10kph.neocities.org/)
@@ -35,6 +36,7 @@ Neat websites you should check out {{< emoji yum >}}
 [![](/img/site-btns/ranfren.gif)](https://ranfren.neocities.org/)
 [![](/img/site-btns/yotsu.gif)](https://yotsu.neocities.org/)
 [![](/img/site-btns/smfj.gif)](https://smfj.blog.fc2.com/)
+[![](/img/site-btns/yogurt200.png)](https://yogurt200.com/)
 [![](/img/site-btns/ilion.gif)](https://ilion.carrd.co/)
 [![](/img/site-btns/lycophron.png)](https://lycophron.blog.fc2.com/)
 {{< rawhtml >}}</div>{{< /rawhtml >}}
