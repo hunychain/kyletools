@@ -12,7 +12,12 @@ title: "Home"
 </div>
 {{< /rawhtml >}}
 
-![A drawing of a little guy sitting in a cardboard box](/img/index-melo.png)
+{{< rawhtml >}}
+<div class="polaroid" style="transform: rotate(5deg); margin-top: 40px; margin-bottom: 40px;">
+<a href="https://piclog.blue/profile.php?id=553"><img src="https://piclog.blue/latest.php?id=553"></a>
+<p>funny of the day</p>
+</div>
+{{< /rawhtml >}}
 
 {{< rawhtml >}}
 <div id="statuscafe">

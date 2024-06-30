@@ -18,14 +18,14 @@ Old -> New
         alt="Girl with text that says 'Snow Angel'"></a>
 <a href="/img/gallery/2022/3.jpg" data-lightbox="2022" data-title="idk what to say about these drawings!"><img
         src="/img/gallery/2022/3-thumb.jpg" alt="Girl with a mom heart tattoo"></a>
-<a href="/img/gallery/2023/1.jpg" data-lightbox="2022" data-title="kaito for chai (chezimwu @ tumblr)"><img
+<a href="/img/gallery/2023/1.jpg" data-lightbox="2022" data-title="kaito for chai (chezimu)"><img
         src="/img/gallery/2023/1-thumb.jpg"
         alt="A drawing of V1 Kaito doing a heart sign in front of a bright pink background. White text says 2023 on the top right corner."></a>
 <a href="/img/gallery/2023/2.jpg" data-lightbox="2022" data-title="bunny guhlll doodle"><img
         src="/img/gallery/2023/2-thumb.jpg" alt="A drawing of girl with bunny ears"></a>
 <a href="/img/gallery/2023/3.jpg" data-lightbox="2022" data-title="burger queen reimu"><img
         src="/img/gallery/2023/3-thumb.jpg" alt="A messy Tuxpaint drawing of Reimu laying on a pile of burgers"></a>
-<a href="/img/gallery/2023/4.jpg" data-lightbox="2022" data-title="another kaito for chai! (chezimwu @ tumblr)"><img
+<a href="/img/gallery/2023/4.jpg" data-lightbox="2022" data-title="another kaito for chai! (chezimu)"><img
         src="/img/gallery/2023/4-thumb.jpg" alt="A chibi drawing of cyber neko Kaito with a spilt glass of milk"></a>
 <a href="/img/gallery/2023/5.jpg" data-lightbox="2022" data-title="svsss doodle :p"><img
         src="/img/gallery/2023/5-thumb.jpg" alt="Scum Villain's Self Saving System fanart"></a>
