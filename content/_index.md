@@ -5,14 +5,6 @@ title: "Home"
 # Welcome! :-)
 
 {{< rawhtml >}}
-<div id="artfight" style="position: relative; background-color: #1A00FF20; padding: 20px; width: fit-content; border-radius: 10px; margin: 0 auto; box-shadow: 0 1px 1px hsla(340, 100%, 0%, 0.01), 0 2px 2px hsla(340, 100%, 0%, 0.01), 0 4px 4px hsla(340, 100%, 0%, 0.01), 0 8px 8px hsla(340, 100%, 0%, 0.03), 0 16px 16px hsla(340, 100%, 0%, 0.01)">
-  <img src="https://lifted.crd.co/assets/images/image27.gif?v=540c5116" style="position: absolute; left: 85%; bottom: 0; width: 100px;" />
-  <img src="https://lifted.crd.co/assets/images/image27.gif?v=540c5116" style="position: absolute; left: -12%; bottom: 0; width: 100px;" />
-  <a href="https://artfight.net/~stink" style="color: #0c0078;">🌀 I'm participating in artfight this year! 🌀</a>
-</div>
-{{< /rawhtml >}}
-
-{{< rawhtml >}}
 <div class="polaroid" style="transform: rotate(5deg); margin-top: 40px; margin-bottom: 40px;">
 <a href="https://piclog.blue/profile.php?id=553"><img src="https://piclog.blue/latest.php?id=553"></a>
 <p>funny of the day</p>
