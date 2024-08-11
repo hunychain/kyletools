@@ -35,36 +35,36 @@
 // Larger screens
 @media only screen and (min-width: 1000px) {
 
-  html,
-  body {
-    height: 100%; // extends sidebar border to bottom of screen
-  }
-
   body {
     margin: 0;
   }
 
   #flex {
+    border: 3px solid $white;
+    box-shadow: 10px 10px $light-grey-2;
+    overflow: scroll;
     max-width: 1100px;
-    min-height: 100%; // extends sidebar border to bottom of screen
+    height: 800px; // extends sidebar border to bottom of screen
     margin: auto;
+    margin-top: 50px;
     display: flex;
   }
 
   main {
-    padding: 6rem;
+    padding: 30px 90px 90px 90px;
     flex: 85%;
     width: 100%; // allows content to take up entire space
   }
 
   header {
-    @include dotted-border(border-right, $grey-2);
-    padding: 6rem 2rem 2rem 2rem;
     flex: 15%;
   }
 
   #sidebar {
+    @include dotted-border(border-right, $grey-2);
+    padding: 50px 32px 0px 32px;
     position: fixed;
+    height: 795px;
 
     #site-title {
       margin-left: -2.5rem;

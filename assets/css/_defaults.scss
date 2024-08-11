@@ -154,6 +154,7 @@ article p img {
 #last-update {
   font-weight: bold;
   color: $grey-2;
+  margin-bottom: 50px;
 }
 
 // H2 Accent
@@ -242,6 +243,7 @@ article p img {
   margin: auto; // centers it
   transform: rotate(-15deg);
   transition: transform .75s ease-in-out;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.1);
 
   &:hover,
   &:active {

@@ -105,7 +105,7 @@
   background-color: $white;
   padding: 1.5rem 1.5rem 0 1.5rem;
   border-radius: 5px;
-  box-shadow: 3px 3px 7px $grey-1;
+  box-shadow: 7px 7px 1px $light-grey-2;
   border: 1px solid $grey-1;
   display: inline-block;
   text-align: center;
@@ -198,7 +198,7 @@ div .tag {
   width: fit-content;
   border-radius: $round-corners;
   margin-bottom: 1rem;
-  margin-top: -1rem; // move closer to content
+  margin-top: -50px; // move closer to content
   transition: all .5s ease-in-out;
 
   a {
@@ -258,6 +258,7 @@ div .tag {
   flex-flow: row wrap;
   gap: .5rem;
   justify-content: center;
+  margin-bottom: 50px;
 
   &>* {
     background-color: $bg-color-darker;
