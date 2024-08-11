@@ -42,7 +42,7 @@
   #flex {
     border: 3px solid $white;
     box-shadow: 10px 10px $light-grey-2;
-    overflow: scroll;
+    overflow-y: scroll;
     max-width: 1100px;
     height: 800px; // extends sidebar border to bottom of screen
     margin: auto;
@@ -78,4 +78,39 @@
       }
     }
   }
+
+  // Fix height for smaller screens
+  @media only screen and (max-height: 875px) {
+    #flex {
+      height: 700px; // extends sidebar border to bottom of screen
+    }
+
+    #sidebar {
+      height: 695px;
+    }
+  }
+
+  @media only screen and (max-height: 770px) {
+    #flex {
+      height: 650px; // extends sidebar border to bottom of screen
+    }
+
+    #sidebar {
+      height: 645px;
+    }
+  }
+
+  @media only screen and (max-height: 716px) {
+    #flex {
+      height: 550px; // extends sidebar border to bottom of screen
+    }
+
+    #sidebar {
+      height: 545px;
+      overflow-y: scroll;
+      padding-bottom: 30px;
+    }
+  }
+
+
 }
