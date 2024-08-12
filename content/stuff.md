@@ -7,12 +7,12 @@ layout: page-not-blog
 
 {{< rawhtml >}}
 <div id="stuff">
-    <a href="/links.html">{{< emoji globe >}} Links</a>
-    <a href="/bookshelf/index.html">{{< emoji blue_book >}} Bookshelf</a>
-    <a href="#">{{< emoji heart_ribbon >}} Doll Collection</a>
-    <a href="#">{{< emoji music_note >}} Music</a>
-    <a href="#">{{< emoji gray_question_mark >}}</a>
+    <a href="/links.html">{{< emoji ms-globe.png >}} Links</a>
+    <a href="/bookshelf/index.html">{{< emoji ms-blue_book.png >}} Bookshelf</a>
+    <a href="#">{{< emoji ms-heart_ribbon.png >}} Doll Collection</a>
+    <a href="#">{{< emoji ms-music_note.png >}} Music</a>
+    <a href="#">{{< emoji ms-gray_question_mark.png >}}</a>
 </div>
 {{< /rawhtml >}}
 
-Only the links & bookshelf are ready... sorry! {{< emoji disappointed >}} 
+Only the links & bookshelf are ready... sorry! {{< emoji sweatdrop.gif >}} 

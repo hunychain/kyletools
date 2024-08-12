@@ -19,7 +19,8 @@ layout: page-not-blog
 
 - [Pangram Pangram's Bitmap Collection](https://pangrampangram.com/products/bitmap-fonts) - fonts!
 - [Hackneyed cursors](https://gitlab.com/Enthymeme/hackneyed-x11-cursors)
-- [Mutant Standard emojis](https://mutant.tech/) {{< emoji v >}}
+- [Mutant Standard emojis](https://mutant.tech/) 
+- [Mazeguy Smilies](https://mutant.tech/) {{< emoji thumbsup.gif >}}
 - [Lightbox2](https://github.com/lokesh/lightbox2) - js library for the gallery
 
 If you have any questions, suggestions, etc, you can send me an [email](mailto:honeychain@disroot.org).

@@ -117,7 +117,6 @@
 
   .emoji {
     box-shadow: none;
-    vertical-align: text-bottom;
   }
 
   p {
@@ -304,7 +303,9 @@ div .tag {
   }
 
   .emoji {
+    image-rendering: unset;
     width: 2.5rem;
+    height: unset;
   }
 
   &>* {

@@ -5,7 +5,7 @@ show_date: true
 layout: page-not-blog
 ---
 
-Neat websites you should check out {{< emoji yum >}}
+Neat websites you should check out {{< emoji tongue.gif >}}
 
 {{< rawhtml >}}<div id="out-btns" style="image-rendering: pixelated;">{{< /rawhtml >}}
 [![](/img/site-btns/chezimu.jpg)](https://chezimu.neocities.org/)

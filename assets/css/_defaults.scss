@@ -113,10 +113,11 @@ img {
 }
 
 .emoji {
-  // Mutant Standard
-  width: 1.5rem;
+  // Mutant Standard -> Mazeguy
+  image-rendering: pixelated;
   display: inline;
-  vertical-align: middle;
+  height: 23px;
+  vertical-align: text-bottom;
 }
 
 .post-content .emoji {
