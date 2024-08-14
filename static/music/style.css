@@ -1,0 +1,75 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightblue;
+  font-size: 1rem;
+}
+
+#container {
+  background-color: white;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 40px;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+header,
+main,
+footer {
+  text-align: center;
+}
+
+main > *,
+header {
+  margin-bottom: 55px;
+}
+
+nav a:not(:last-child) {
+  margin-right: 10px;
+}
+
+.grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.grid.playlists img {
+  width: 200px;
+}
+
+#text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+#text h2,
+#text h3 {
+  text-align: center;
+}
+
+#more,
+#updates {
+  max-width: 400px;
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.tracklist li {
+  text-align: left !important;
+}

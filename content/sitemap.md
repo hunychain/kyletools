@@ -14,6 +14,6 @@ layout: page-not-blog
   - Sketchbook (wip)
 - [Stuff](/stuff.html)  
   - [Links](/links.html)
-  - [Bookshelf](/bookshelf.html)
+  - [Bookshelf](/bookshelf/index.html)
+  - [Music](/music/index.html) (wip)
   - Dollhouse (wip)
-  - Music (wip)
