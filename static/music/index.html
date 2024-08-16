@@ -37,7 +37,7 @@
   <body>
     <div id="container">
       <header>
-        <a href="/music/index.html"><h1>Rhythm Beach</h1></a>
+        <h1><a href="/music/index.html">Rhythm Beach</a></h1>
         <nav>
           <a href="./tracks.html">Tracks</a>
           <a href="./albums.html">Albums</a>
@@ -47,20 +47,21 @@
       </header>
 
       <main>
-        <p>
+        <p class="text">
           This is a collection of music that I like. Explore and take a listen!
         </p>
 
-        <div class="grid">
+        <div class="grid" id="featured">
           <section>
             <h2>Featured Track</h2>
             <figure>
-              <a href="https://youtu.be/Na7euLwP3UU?si=e5j8c_iYSrSn3Fot">
-                <img src="./img/ft-track.jpg"
+              <a href="https://youtu.be/Na7euLwP3UU?si=e5j8c_iYSrSn3Fot"
+                ><img src="./img/tracks/1.jpg"
               /></a>
               <figcaption>
+                hitomi -
                 <a href="https://youtu.be/Na7euLwP3UU?si=e5j8c_iYSrSn3Fot"
-                  >hitomi - Comodon Johnson</a
+                  >Comodon Johnson</a
                 >
               </figcaption>
             </figure>
@@ -69,42 +70,40 @@
           <section>
             <h2>Featured Playlist</h2>
             <figure>
-              <a href="./playlists/01.html"
-                ><img src="./img/ft-playlist.jpg"
+              <a href="./playlists/1.html"
+                ><img src="./img/playlists/1.jpg"
               /></a>
               <figcaption>
-                <a href="./playlists/01.html">not intelligent</a>
+                <a href="./playlists/1.html">not intelligent</a>
               </figcaption>
             </figure>
           </section>
         </div>
 
-        <div id="text">
-          <section id="more">
-            <h2>More Music!</h2>
-            <ul>
-              <li>
-                <a href="#">bff.fm</a> - community radio station from san
-                francisco
-              </li>
-              <li>
-                <a href="https://somafm.com/">SomaFM</a> - commercial-free,
-                listener supported internet radio
-              </li>
-              <li>
-                <a href="https://listen.moe/">listen.moe</a> - j-pop and k-pop
-                radio
-              </li>
-            </ul>
-          </section>
+        <section class="text">
+          <h2>More Music!</h2>
+          <ul>
+            <li>
+              <a href="https://bff.fm/">bff.fm</a> - community radio station
+              from san francisco
+            </li>
+            <li>
+              <a href="https://somafm.com/">SomaFM</a> - commercial-free,
+              listener supported internet radio
+            </li>
+            <li>
+              <a href="https://listen.moe/">listen.moe</a> - j-pop and k-pop
+              radio
+            </li>
+          </ul>
+        </section>
 
-          <section id="updates">
-            <h3>Update log</h3>
-            <ul>
-              <li>Aug 13 2024 - building...</li>
-            </ul>
-          </section>
-        </div>
+        <section class="text">
+          <h3>Updates</h3>
+          <ul>
+            <li>Aug 14, 2024 - still working on this thing</li>
+          </ul>
+        </section>
       </main>
 
       <footer>

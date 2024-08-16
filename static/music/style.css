@@ -4,37 +4,84 @@
   box-sizing: border-box;
 }
 
+/* Fonts */
+@font-face {
+  font-family: "Neuebit";
+  font-weight: 400;
+  src:
+    url("/css/NeuebitR.woff2") format("woff2"),
+    url("NeuebitR.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Neuebit";
+  font-weight: 700;
+  src:
+    url("/css/NeuebitB.woff2") format("woff2"),
+    url("NeuebitB.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Mondwest";
+  font-weight: 400;
+  src:
+    url("/css/MondwestR.woff2") format("woff2"),
+    url("MondwestR.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Mondwest";
+  font-weight: 700;
+  src:
+    url("/css/MondwestB.woff2") format("woff2"),
+    url("MondwestB.woff") format("woff");
+}
+/* /Fonts */
+
 body {
-  background-color: lightblue;
-  font-size: 1rem;
-}
-
-#container {
-  background-color: white;
-  max-width: 1000px;
-  margin: auto;
-  margin-top: 40px;
-  padding: 30px;
-  border-radius: 15px;
-}
-
-h1 {
-  font-size: 3rem;
-}
-
-header,
-main,
-footer {
+  font-family: "Neuebit";
+  font-size: 1.7rem;
   text-align: center;
 }
 
-main > *,
-header {
-  margin-bottom: 55px;
+h1,
+h2,
+h3 {
+  font-family: "Mondwest";
+}
+
+#container {
+  margin: 0 auto;
+  margin-top: 40px;
+  max-width: 1200px;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header a {
+  color: #000;
+}
+
+h1 {
+  font-size: 4rem;
 }
 
 nav a:not(:last-child) {
-  margin-right: 10px;
+  margin-right: 20px;
+}
+
+main {
+  border: 1px solid #000;
+  border-radius: 15px;
+  padding: 40px 30px 40px 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+main > *:not(:last-child) {
+  margin-bottom: 40px;
 }
 
 .grid {
@@ -44,32 +91,48 @@ nav a:not(:last-child) {
   gap: 30px;
 }
 
-.grid.playlists img {
-  width: 200px;
+.text {
+  max-width: 600px;
+  margin: 0 auto;
 }
 
-#text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 30px;
-}
-
-#text h2,
-#text h3 {
-  text-align: center;
-}
-
-#more,
-#updates {
-  max-width: 400px;
+.text li {
   text-align: left;
+  line-height: 1.8rem;
+  letter-spacing: 0.05rem;
 }
 
-ul {
-  list-style-type: none;
+ol {
+  margin: 0 auto;
+  width: fit-content;
 }
 
-.tracklist li {
-  text-align: left !important;
+ul li::marker {
+  font-size: 1rem;
+}
+
+p,
+li {
+  letter-spacing: 0.05rem;
+}
+
+h2,
+h3 {
+  margin-bottom: 15px;
+}
+
+.group > * {
+  width: 250px;
+}
+
+.grid figure img {
+  width: 100%;
+}
+
+#featured {
+  gap: 60px;
+}
+
+footer {
+  margin-bottom: 30px;
 }
