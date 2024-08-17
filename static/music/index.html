@@ -37,27 +37,50 @@
   <body>
     <div id="container">
       <header>
-        <h1><a href="/music/index.html">Rhythm Beach</a></h1>
+        <div id="title">
+          <img class="pixel" id="musicnote1" src="./img/musicnotes.gif" />
+          <a href="/music/index.html"
+            ><img class="pixel" src="./img/title.png" alt="Rhythm Island"
+          /></a>
+          <img class="pixel" id="musicnote2" src="./img/musicnotes.gif" />
+        </div>
         <nav>
+          <a href="/music/index.html">Home</a>
+          <img class="pixel" src="./img/flower.gif" />
           <a href="./tracks.html">Tracks</a>
+          <img class="pixel" src="./img/flower.gif" />
           <a href="./albums.html">Albums</a>
+          <img class="pixel" src="./img/flower.gif" />
           <a href="./artists.html">Artists</a>
+          <img class="pixel" src="./img/flower.gif" />
           <a href="./playlists/index.html">Playlists</a>
         </nav>
       </header>
 
       <main>
-        <p class="text">
-          This is a collection of music that I like. Explore and take a listen!
-        </p>
+        <div class="text">
+          <p>
+            This is a collection of music that I like. <br />Explore and take a
+            listen!
+          </p>
+          <img class="pixel" src="./img/cdplayer.gif" alt="CD player" />
+        </div>
 
         <div class="grid" id="featured">
           <section>
             <h2>Featured Track</h2>
             <figure>
-              <a href="https://youtu.be/Na7euLwP3UU?si=e5j8c_iYSrSn3Fot"
-                ><img src="./img/tracks/1.jpg"
-              /></a>
+              <div class="thumb">
+                <img
+                  class="pixel"
+                  id="rabbit-pixel"
+                  src="./img/rabbit.gif"
+                  alt="pink rabbit"
+                />
+                <a href="https://youtu.be/Na7euLwP3UU?si=e5j8c_iYSrSn3Fot"
+                  ><img class="cover" src="./img/tracks/1.jpg"
+                /></a>
+              </div>
               <figcaption>
                 hitomi -
                 <a href="https://youtu.be/Na7euLwP3UU?si=e5j8c_iYSrSn3Fot"
@@ -70,9 +93,17 @@
           <section>
             <h2>Featured Playlist</h2>
             <figure>
-              <a href="./playlists/1.html"
-                ><img src="./img/playlists/1.jpg"
-              /></a>
+              <div class="thumb">
+                <img
+                  class="pixel"
+                  id="monkey-pixel"
+                  src="./img/monkey.gif"
+                  alt="monkey"
+                />
+                <a href="./playlists/1.html"
+                  ><img class="cover" src="./img/playlists/1.jpg"
+                /></a>
+              </div>
               <figcaption>
                 <a href="./playlists/1.html">not intelligent</a>
               </figcaption>
@@ -107,7 +138,8 @@
       </main>
 
       <footer>
-        <a href="/stuff.html">Return</a> -
+        <a href="/stuff.html">Return</a>
+        <img class="pixel" src="./img/bubbles.gif" />
         <a href="https://kyle.atabook.org/">Guestbook</a>
       </footer>
     </div>
