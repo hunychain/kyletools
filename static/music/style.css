@@ -263,12 +263,9 @@ footer a {
   }
 }
 
-#updates {
-}
-
 #updates ul {
   overflow: scroll;
-  height: 200px;
+  height: fit-content;
   max-width: 470px;
   margin: 0 auto;
   background-color: var(--light-pink);
