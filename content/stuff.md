@@ -1,6 +1,6 @@
 ---
 title: "Stuff"
-date: 2023-01-08T15:57:14-08:00
+date: "2024-08-17"
 show_date: true 
 layout: page-not-blog
 ---

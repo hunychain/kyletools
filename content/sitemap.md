@@ -1,6 +1,6 @@
 ---
 title: "Sitemap"
-date: 2023-01-08T15:57:14-08:00
+date: "2024-08-17"
 show-date: true
 layout: page-not-blog
 ---
@@ -11,9 +11,8 @@ layout: page-not-blog
 - [Blog](/blog.html)
   - [Archive](/blog/archive.html)  
 - [Gallery](/gallery.html)  
-  - Sketchbook (wip)
 - [Stuff](/stuff.html)  
   - [Links](/links.html)
   - [Bookshelf](/bookshelf/index.html)
-  - [Music](/music/index.html) (wip)
-  - Dollhouse (wip)
+  - [Music](/music/index.html) 
+- [404](/not_found.html)
