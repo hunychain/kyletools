@@ -5,8 +5,11 @@
   --pale-yellow: #fffded;
   --pale-blue: #d1fffb;
   --pink: #f54195;
+  --light-pink: #ffe0e8;
   --white: #fff;
   --dark-blue: #0221aa;
+  --shadow: rgb(25, 8, 94, 0.2);
+  --shadow-lighter: rgb(25, 8, 94, 0.1);
 }
 
 * {
@@ -66,6 +69,7 @@ h2,
 h3 {
   font-family: "Mondwest";
   color: var(--dark-blue);
+  text-shadow: 2px 2px 0px var(--shadow);
 }
 
 #container {
@@ -142,11 +146,53 @@ h3 {
 
 .group > *,
 .group img {
-  width: 250px;
+  width: 200px;
+}
+
+.group {
+  font-size: 1.1rem;
 }
 
 #featured {
   gap: 60px;
+}
+
+#featured section {
+  position: relative;
+}
+
+#featured h2 {
+  background-color: var(--pale-blue);
+  box-shadow: 4px 4px 0px var(--shadow);
+  border-radius: 10px;
+  text-shadow: none;
+  transform: rotate(-8deg);
+  position: absolute;
+  z-index: 1;
+  left: -40px;
+  top: -5px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+nav a,
+footer a {
+  filter: drop-shadow(3px 3px 0px var(--shadow));
+}
+
+#monkey-pixel,
+#rabbit-pixel,
+#cdplayer-pixel {
+  filter: drop-shadow(3px 3px 0px var(--shadow-lighter));
+}
+
+#monkey-pixel,
+#rabbit-pixel {
+  z-index: 1;
+}
+
+#featured .cover {
+  transform: rotate(4deg);
 }
 
 footer {
@@ -208,4 +254,26 @@ footer a {
 
 .cover {
   border-radius: 10px;
+  box-shadow: 0px 0px 15px var(--shadow-lighter);
+}
+
+@media only screen and (max-width: 505px) {
+  #title {
+    padding: unset;
+  }
+}
+
+#updates {
+}
+
+#updates ul {
+  overflow: scroll;
+  height: 200px;
+  max-width: 470px;
+  margin: 0 auto;
+  background-color: var(--light-pink);
+  padding: 40px;
+  border-radius: 10px;
+  border: 5px solid var(--pink);
+  border-style: ridge;
 }
