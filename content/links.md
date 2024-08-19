@@ -1,13 +1,18 @@
 ---
 title: "Links"
-date: "2024-06-28"
+date: "2024-08-18"
 show_date: true
 layout: page-not-blog
 ---
 
 Neat websites you should check out {{< emoji tongue.gif >}}
 
+## Buttons
+
 {{< rawhtml >}}<div id="out-btns" style="image-rendering: pixelated;">{{< /rawhtml >}}
+
+
+
 [![](/img/site-btns/chezimu.jpg)](https://chezimu.neocities.org/)
 [![](/img/site-btns/fujofans.png)](https://fujofans.neocities.org/)
 [![](/img/site-btns/bcb.png)](https://bittersweetcandybowl.com/)
@@ -32,13 +37,26 @@ Neat websites you should check out {{< emoji tongue.gif >}}
 [![](/img/site-btns/koinuko.gif)](https://koinuko.pink/)
 [![](/img/site-btns/neonaut.png)](https://neonaut.neocities.org/)
 [![](/img/site-btns/rottengirlgang.png)](https://rottengirlgang.neocities.org/)
+[![](/img/site-btns/cidoku.gif)](https://cidoku.net/)
+[![](/img/site-btns/cinni.gif)](https://cinni.net/)
+[![](/img/site-btns/cloverbell.gif)](https://cloverbell.neocities.org/)
+[![](/img/site-btns/ita.gif)](https://ita.toys/)
+[![](/img/site-btns/jeansgurl98.png)](https://jeansgurl98.com/)
+[![](/img/site-btns/pomelo.gif)](https://pomelo.lol/)
+[![](/img/site-btns/pastelhello.png)](https://pastelhello.com/)
+[![](/img/site-btns/lhfm.png)](https://lhfm.neocities.org/)
+[![](/img/site-btns/webcatz.png)](https://webcatz.neocities.org/)
+[![](/img/site-btns/syntheticfruits.gif)](https://syntheticfruits.neocities.org/)
+[![](/img/site-btns/dog-house.gif)](https://dog-house.neocities.org/)
 [![](/img/site-btns/denpaarchive.gif)](https://denpaarchive.neocities.org/)
 [![](/img/site-btns/ranfren.gif)](https://ranfren.neocities.org/)
 [![](/img/site-btns/yotsu.gif)](https://yotsu.neocities.org/)
 [![](/img/site-btns/smfj.gif)](https://smfj.blog.fc2.com/)
 [![](/img/site-btns/yogurt200.png)](https://yogurt200.com/)
-[![](/img/site-btns/ilion.gif)](https://ilion.carrd.co/)
+[![](/img/site-btns/ilion.gif)](https://www.ilion.dog/)
 [![](/img/site-btns/lycophron.png)](https://lycophron.blog.fc2.com/)
+[![](/img/site-btns/2cherrish.gif)](https://2cherrish.neocities.org/)
+[![](/img/site-btns/mewmiu.png)](https://mewmiu.blog.fc2.com/)
 {{< rawhtml >}}</div>{{< /rawhtml >}}
 
 If you like my site, link to it maybe? No [hotlinking](https://simple.wikipedia.org/wiki/Hotlinking)!
@@ -73,10 +91,12 @@ Instead of describing each one, there's a link to a video I like.
 - Blind Dweller - [The Beautiful Nightmares of Aleksandra Waliszewska](https://youtu.be/wfbB1qYkfN8?si=GnXbSfllLcRIYvbn)
 - Macintosh Librarian - [How Apple Computers got into Schools](https://youtu.be/zevYWrFh8fw?si=4ClQayzXOh4vjrt9)
 - Rian Phin - [mysterious mundane online photo culture + fashion (video essay)](https://youtu.be/b5VyeYSqVpE?si=V9bICOjQtr71h2-m)
-- cybr.grl - [90s Gyaru Mom vs 2020s Gyaru Kid - Gal Interview with Haruka & Emi ](https://youtu.be/ynCo0pXPYA8?si=8iOOCm1uIWZhHN07)
+- cybr.grl - [90s Gyaru Mom vs 2020s Gyaru Kid - Gal Interview with Haruka & Emi](https://youtu.be/ynCo0pXPYA8?si=8iOOCm1uIWZhHN07)
+- hazel - [weird & kinda scary tokusatsu girls](https://www.youtube.com/watch?v=biV2AEvOH_8&pp=ygUPaGF6ZWwgdG9rdXNhdHN1)
 
 ### Read
 
+- [Decolonize Palestine](https://decolonizepalestine.com/)
 - [404 Media](https://www.404media.co/) - independent tech journalism
 - [The Creative Independent](https://thecreativeindependent.com/) - emotional and practical guidance for creative people
 - [Gossip's Web Blog](https://blog.gossipsweb.net/) - micro interviews, behind the handmade web
