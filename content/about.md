@@ -1,6 +1,6 @@
 ---
 title: "About"
-date: "2024-06-10"
+date: "2025-01-15"
 show_date: true
 layout: page-not-blog
 ---
@@ -38,4 +38,4 @@ Hi I'm [Kyle](https://hunychain.github.io/)! welcome (o.o)/ I post whatever here
 ![](/img/btns/yeahimsilly.png)
 ![](/img/btns/inluv.gif) 
 
-Credit to pooplover11 for the drawing in the sidebar!
+Credit to [chezimu](https://chezimu.neocities.org/) for the drawing in the sidebar!

@@ -34,6 +34,7 @@ layout: homepage
   <a id="show" href="#show" class="show">Update <span>↑</span></a>
   <hr>
 <div class="details">{{< /rawhtml >}}
+- {{< rawhtml >}}<span class="date">01/15/2025</span>{{< /rawhtml >}} new sidebar pic by my gf :3 new blog post coming soon!
 - {{< rawhtml >}}<span class="date">08/17/2024</span>{{< /rawhtml >}} [music page](/music/index.html) is up!
 - {{< rawhtml >}}<span class="date">06/02/2024</span>{{< /rawhtml >}} made a button for my site! i'll update soon i swear..lolol
 - {{< rawhtml >}}<span class="date">01/12/2023</span>{{< /rawhtml >}} my [bookshelf](/bookshelf/index.html) is up!

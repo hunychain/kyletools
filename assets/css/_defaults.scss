@@ -274,6 +274,7 @@ article p img {
 }
 
 #profile-pic img {
+  image-rendering: pixelated;
   width: 90px;
   margin-top: -.85rem; // moves closer to title
 }
