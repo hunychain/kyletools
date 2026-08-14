@@ -1,11 +1,11 @@
 ---
 title: "Gallery"
-date: "2024-06-28"
+date: "2026-08-14"
 show-date: true
 layout: page-not-blog
 ---
 
-I have an [art thread on Gaia Online](https://www.gaiaonline.com/forum/gaian-art-gallery/_-sketchbook/t.114018696/) that I actively update. (click on emojis to view) 
+I have an [art thread on Gaia Online](https://www.gaiaonline.com/forum/gaian-art-gallery/_-sketchbook/t.114018696/) that I haven't updated in a while. (you need an account to see it!)
 
 Old -> New
 
