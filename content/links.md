@@ -13,7 +13,7 @@ Neat websites you should check out {{< emoji tongue.gif >}}
 
 
 
-[![](/img/site-btns/chezimu.jpg)](https://chezimu.neocities.org/)
+[![](/img/site-btns/chezimu.gif)](https://chezimu.neocities.org/)
 [![](/img/site-btns/fujofans.png)](https://fujofans.neocities.org/)
 [![](/img/site-btns/bcb.png)](https://bittersweetcandybowl.com/)
 [![](/img/site-btns/773tk.png)](https://773tk.neocities.org/)
@@ -21,7 +21,6 @@ Neat websites you should check out {{< emoji tongue.gif >}}
 [![](/img/site-btns/briedraws.webp)](https://briedraws.neocities.org/)
 [![](/img/site-btns/coils.png)](https://coils.neocities.org/)
 [![](/img/site-btns/doqmeat.png)](https://doqmeat.neocities.org/)
-[![](/img/site-btns/errormine.gif)](https://errormine.neocities.org/)
 [![](/img/site-btns/frills.png)](https://frills.dev/)
 [![](/img/site-btns/incessantpain.gif)](https://incessantpain.neocities.org/)
 [![](/img/site-btns/iwillneverbehappy.gif)](https://iwillneverbehappy.neocities.org/)
@@ -42,10 +41,7 @@ Neat websites you should check out {{< emoji tongue.gif >}}
 [![](/img/site-btns/cloverbell.gif)](https://cloverbell.neocities.org/)
 [![](/img/site-btns/ita.gif)](https://ita.toys/)
 [![](/img/site-btns/jeansgurl98.png)](https://jeansgurl98.com/)
-[![](/img/site-btns/pomelo.gif)](https://pomelo.lol/)
-[![](/img/site-btns/pastelhello.png)](https://pastelhello.com/)
 [![](/img/site-btns/lhfm.png)](https://lhfm.neocities.org/)
-[![](/img/site-btns/webcatz.png)](https://webcatz.neocities.org/)
 [![](/img/site-btns/syntheticfruits.gif)](https://syntheticfruits.neocities.org/)
 [![](/img/site-btns/dog-house.gif)](https://dog-house.neocities.org/)
 [![](/img/site-btns/denpaarchive.gif)](https://denpaarchive.neocities.org/)

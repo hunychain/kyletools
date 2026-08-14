@@ -1,7 +1,7 @@
 baseURL = 'http://kyletools.neocities.org/'
 title = 'kyletools'
 languageCode = 'en-us'
-copyright = "2024"
+copyright = "2026"
 uglyurls = true
 relativeURLs = true
 disableKinds = ["sitemap", "RSS", "404", "taxonomy"]
