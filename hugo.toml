@@ -1,6 +1,6 @@
 baseURL = 'http://kyletools.neocities.org/'
 title = 'kyletools'
-languageCode = 'en-us'
+locale = 'en-us'
 copyright = "2026"
 uglyurls = true
 relativeURLs = true
