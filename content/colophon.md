@@ -1,9 +1,11 @@
 ---
 title: "Colophon"
-date: 2024-06-05T22:28:30-07:00
+date: 2026-08-30
 show_date: true
 layout: page-not-blog
 ---
+
+Page is out of date, to be updated soon!
 
 - Hosted on [Neocities](https://neocities.org/site/kyletools)
 - Source code on [GitHub](https://github.com/hunychain/kyletools)

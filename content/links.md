@@ -60,7 +60,7 @@ If you like my site, link to it maybe? No [hotlinking](https://simple.wikipedia.
 {{< rawhtml >}}
 <img id="button" style="display: block; image-rendering: pixelated" src="/img/kt-btn.gif" alt="Kyletools button"/>
 <textarea style="width: 50%; height: 70px;">
-<a href="https://kyletools.neocities.org/"><img src="kyletools.gif" style="image-rendering: pixelated;></a>
+<a href="https://kyletools.nekoweb.org/"><img src="kyletools.gif" style="image-rendering: pixelated;></a>
 </textarea>
 {{< /rawhtml >}}
 
