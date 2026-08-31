@@ -1,0 +1,38 @@
+name: Deploy to Nekoweb
+
+on:
+  push:
+    branches:
+      - neko
+
+concurrency:
+  group: deploy-to-nekoweb
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Build
+        run: hugo 
+
+      - name: Remove tags from public build
+        run: rm -rf public/tags
+
+      - name: Deploy to Nekoweb
+        uses: indiefellas/deploy2nekoweb@main
+        with:
+          nekoweb-api-key: ${{ secrets.NEKOWEB_API_KEY }}
+          nekoweb-domain: 'kyletools.nekoweb.org'
+          nekoweb-username: 'kyletools'
+          directory: 'public'
