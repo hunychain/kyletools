@@ -8,7 +8,7 @@ layout: page-not-blog
 {{< rawhtml >}}<div id="cowtools" class="polaroid"><a href="https://en.wikipedia.org/wiki/Cow_Tools"><img src="/img/about-cowtools.jpg" alt="Cow Tools comic panel"></a><p>{{< emoji neener.gif >}}</></div>{{< /rawhtml >}}
 {{< rawhtml >}}<div id="monkey" class="polaroid"><a href="https://en.wikipedia.org/wiki/LGBT"><img src="/img/about-monkeyschoolboy.jpg" alt="Monkey schoolboy"></a><p>recent pic of me {{< emoji blush.gif >}}</p></div>{{< /rawhtml >}}
 
-Hi I'm [Kyle](https://hunychain.github.io/)! welcome (o.o)/ I [made this website](/colophon.html) for fun. I love my [partner](https://chezimu.neocities.org/) and my dogs. <3 Send an [email](mailto:honeychain@disroot.org) if you need to get a hold of me.
+Hi I'm [Kyle](https://hunychain.github.io/)! welcome (o.o)/ I [made this website](/colophon.html) for fun. I love my [partner](https://chezimu.nekoweb.org/) and my dogs. <3 Send an [email](mailto:honeychain@disroot.org) if you need to get a hold of me.
 
 | a few things | that tickle my brain                                                     |
 | ------------ | ------------------------------------------------------------------------ |
@@ -38,4 +38,4 @@ Hi I'm [Kyle](https://hunychain.github.io/)! welcome (o.o)/ I [made this website
 ![](/img/btns/yeahimsilly.png)
 ![](/img/btns/inluv.gif) 
 
-Credit to [chezimu](https://chezimu.neocities.org/) for the drawing in the sidebar!
+Credit to [chezimu](https://chezimu.nekoweb.org/) for the drawing in the sidebar!

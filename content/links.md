@@ -13,7 +13,7 @@ Neat websites you should check out {{< emoji tongue.gif >}}
 
 
 
-[![](/img/site-btns/chezimu.gif)](https://chezimu.neocities.org/)
+[![](/img/site-btns/chezimu.gif)](https://chezimu.nekoweb.org/)
 [![](/img/site-btns/fujofans.png)](https://fujofans.neocities.org/)
 [![](/img/site-btns/bcb.png)](https://bittersweetcandybowl.com/)
 [![](/img/site-btns/773tk.png)](https://773tk.neocities.org/)
