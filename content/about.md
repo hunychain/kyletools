@@ -1,6 +1,6 @@
 ---
 title: "About"
-date: "2026-08-14"
+date: "2026-11-05"
 show_date: true
 layout: page-not-blog
 ---
@@ -38,4 +38,4 @@ Hi I'm [Kyle](https://hunychain.github.io/)! welcome (o.o)/ I [made this website
 ![](/img/btns/yeahimsilly.png)
 ![](/img/btns/inluv.gif) 
 
-Credit to [chezimu](https://chezimu.nekoweb.org/) for the drawing in the sidebar!
+Credit to [chezimu](https://chezimu.nekoweb.org/) for the pagedoll on the bottom right and the drawing in the sidebar!

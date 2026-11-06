@@ -60,6 +60,23 @@
     flex: 15%;
   }
 
+  // Custard pagedoll
+  #pagedoll {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 230px;
+    height: 250px;
+    background-image: url('/img/custard1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    &:hover {
+      background-image: url('/img/custard2.png');
+    }
+  }
+
+
   #sidebar {
     @include dotted-border(border-right, $grey-2);
     padding: 50px 32px 0px 32px;
