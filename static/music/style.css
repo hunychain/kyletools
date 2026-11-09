@@ -175,6 +175,19 @@ h3 {
   padding-right: 7px;
 }
 
+#randombutton {
+  background-color: var(--pale-yellow);
+  padding: 30px;
+  width: fit-content;
+  height: fit-content;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 5px solid #f7dbb7;
+  border-style: ridge;
+}
+
 nav a,
 footer a {
   filter: drop-shadow(3px 3px 0px var(--shadow));

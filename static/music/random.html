@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Surprise - kyletools</title>
+    <meta
+      property="og:image"
+      content="https://kyletools.nekoweb.org/img/meta-thumb.jpg"
+    />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      name="description"
+      content="Kyletools is a place for Kyle to roam around and graze freely. Here you can find his thoughts, drawings, and whatever else interests him. Abandon all hope, ye who enter here."
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./img/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./img/favicon/site.webmanifest" />
+
+    <style>
+      html,
+      body {
+        margin: 0;
+        height: 100%;
+        background-color: black;
+        overflow: hidden;
+      }
+
+      video {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <video id="musicvideo" autoplay loop playsinline controls>
+      <source id="musicvideosource" src="" type="video/mp4" />
+    </video>
+  </body>
+  <script>
+    // Pick a random video
+    const videoIDs = ["yly0kf", "8r9hjf"];
+    const index = Math.floor(Math.random() * videoIDs.length);
+    const currentVideo = videoIDs[index];
+    const url = `https://files.catbox.moe/${currentVideo}.mp4`;
+
+    // Load video
+    const videoSrc = document.getElementById("musicvideosource");
+    const videoElement = document.getElementById("musicvideo");
+    videoSrc.src = url;
+    videoElement.load();
+  </script>
+</html>
