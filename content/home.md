@@ -34,6 +34,7 @@ layout: homepage
   <a id="show" href="#show" class="show">Update <span>↑</span></a>
   <hr>
 <div class="details">{{< /rawhtml >}}
+- {{< rawhtml >}}<span class="date">11/09/2026</span>{{< /rawhtml >}} new host: neocities -> nekoweb! some pages/buttons need to be fixed. and i made a small update to the [music page](/music/index.html)! new stuff coming.. soon? don't trust me... oh and my gf made a supa cute pagedoll (she disappears if your screen is too small!) 
 - {{< rawhtml >}}<span class="date">01/15/2025</span>{{< /rawhtml >}} new sidebar pic by my gf :3 new blog post coming soon!
 - {{< rawhtml >}}<span class="date">08/17/2024</span>{{< /rawhtml >}} [music page](/music/index.html) is up!
 - {{< rawhtml >}}<span class="date">06/02/2024</span>{{< /rawhtml >}} made a button for my site! i'll update soon i swear..lolol
